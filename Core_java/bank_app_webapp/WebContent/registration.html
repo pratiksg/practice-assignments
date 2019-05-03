@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Registration form</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+        <label for="first_name">First_name:</label>
+        <input type="First_name" class="form-control" id=" " placeholder=" " name="first name" required>
+      </div>
+      <div class="form-group">
+        <label for="last_name">Last_name:</label>
+        <input type="Last_name" class="form-control" id=" " placeholder=" " name="last_name" required>
+      </div>
+      <div class="form-group">
+        <label for="Contact">First_name:</label>
+        <input type="Contact" class="form-control" id=" " placeholder=" " name="Contact" required>
+      </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+    </div>
+    <form>
+        Select Gender:
+      
+        <label><input type="radio" name="gender" value="male" required>Male</label>
+      
+        <label><input type="radio" name="gender" value="female">Female</label>
+      
+        
+      </form>
+    <form action="/action_page.php">
+        Birthday:
+        <input type="date" name="bday">
+        
+      </form>
+    <div class="form-group">
+      <label for="address">Address</label>
+      <input type="address" class="form-control" id="pwd" placeholder="Address" name="address" required>
+    </div>
+    <div class="form-group">
+        <label for="state">State</label>
+        <input type="state" class="form-control" id="state" placeholder="State" name="state" required>
+      </div>
+      <div class="form-group">
+        <label for="postal">postal</label>
+        <input type="postal" class="form-control" id="postal" placeholder="postal" name="postal" required>
+      </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Account Type
+        </button>
+        <div class="dropdown-menu" aria-labelledby="Account Type">
+          <a class="dropdown-item" href="#">Saving</a>
+          <a class="dropdown-item" href="#">Current</a>
+          
+        </div>
+      </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
